@@ -7,12 +7,15 @@
     width: 431.667px;
     transform: translateX(38px);
     border-style: none;
+    border-color: var(--bs-navbar-disabled-color);
   }
 }
 
 @media (min-width: 992px) {
   .dropdown-menu {
     width: 481px;
+    border-radius: 0px;
+    border: 2px solid var(--bs-navbar-brand-color) ;
   }
 }
 
