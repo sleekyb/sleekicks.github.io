@@ -120,20 +120,20 @@ a {
 @media (min-width: 301px) and (max-width: 764px) {
   .nd-nav {
     display: flex;
-    transform: translateX(266px) translateY(-48px);
+    transform: translateX(323px) translateY(-48px);
   }
 }
 
 @media (min-width: 10px) and (max-width: 360px) {
   .nd-nav {
-    transform: translateX(66px) translateY(-48px);
+    transform: translateX(95px) translateY(-48px);
     position: relative;
   }
 }
 
 @media (min-width: 765px) and (max-width: 991px) {
   .nd-nav {
-    transform: translateX(489px) translateY(-48px);
+    transform: translateX(539px) translateY(-41px);
     display: flex;
   }
 }

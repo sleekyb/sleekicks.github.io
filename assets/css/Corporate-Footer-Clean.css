@@ -72,3 +72,37 @@
   }
 }
 
+.has-quantity.reflow-cart-toggler.has-summary {
+}
+
+@media (min-width: 765px) {
+  .has-quantity.reflow-cart-toggler.has-summary {
+    transform: translateX(523px);
+  }
+}
+
+@media (min-width: 992px) {
+  .has-quantity.reflow-cart-toggler.has-summary {
+    transform: translateX(765px) translateY(7px);
+  }
+}
+
+@media (min-width: 765px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 764px) {
+  img {
+    width: 230%;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    transform: translateX(38px) translateY(323px);
+    width: 295px;
+  }
+}
+
