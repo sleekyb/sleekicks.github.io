@@ -144,3 +144,11 @@ a {
   }
 }
 
+img, svg {
+  vertical-align: middle;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
