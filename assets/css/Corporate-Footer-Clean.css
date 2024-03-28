@@ -93,7 +93,7 @@
 
 @media (min-width: 06px) and (max-width: 360px) {
   .cart {
-    transform: translateX(52px) translateY(15px);
+    transform: translateX(66px) translateY(15px);
   }
 }
 
@@ -118,6 +118,12 @@
 @media (min-width: 1200px) {
   .cart {
     transform: translateX(765px) translateY(22px);
+  }
+}
+
+@media (min-width: 360px) {
+  .idgaf {
+    transform: scale(0.65);
   }
 }
 
