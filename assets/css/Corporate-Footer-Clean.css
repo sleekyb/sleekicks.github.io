@@ -127,3 +127,9 @@
   }
 }
 
+@media (min-width: 360px) {
+  section {
+    left: -250px;
+  }
+}
+
