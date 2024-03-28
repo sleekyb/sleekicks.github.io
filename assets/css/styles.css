@@ -62,12 +62,6 @@
   border-radius: var(--bs-dropdown-border-radius);
 }
 
-@media (max-width: 576px) {
-  .has-quantity.reflow-cart-toggler.has-summary {
-    transform: translateX(9px) translateY(1px);
-  }
-}
-
 @media (min-width: 768px) {
   .navbar {
     width: 50%;
@@ -150,5 +144,10 @@ img, svg {
 
 b, strong {
   font-weight: bolder;
+}
+
+.navbar-toggler:hover {
+  display: block;
+  text-decoration: none;
 }
 
