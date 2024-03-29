@@ -72,12 +72,8 @@
   }
 }
 
-.has-quantity.reflow-cart-toggler.has-summary {
-}
-
 @media (min-width: 765px) {
   .has-quantity.reflow-cart-toggler.has-summary {
-    transform: translateX(523px);
   }
 }
 
@@ -138,12 +134,42 @@
 
 @media (min-width: 768px) {
   section {
+    top: 100px;
     transform: translateY(-29px);
   }
 }
 
 @media (max-width: 768px) {
   section {
+    top: 51px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nemoo {
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    top: 20px;
+  }
+}
+
+@media (min-width: 767px) {
+  header {
+    top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .theme-switcher {
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    transform: translateY(9px);
   }
 }
 
