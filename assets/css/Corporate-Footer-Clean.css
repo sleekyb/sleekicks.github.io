@@ -180,3 +180,9 @@
   }
 }
 
+@media (max-width: 400px) {
+  .opps {
+    transform: translateX(-205px) translateY(-105px) scale(0.80);
+  }
+}
+
